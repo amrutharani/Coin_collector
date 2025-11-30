@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coin Clash Multiplayer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            color: white;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin: 10px;
+            color: gold;
+        }
+        #hud {
+            width: 600px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        #startBtn {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 14px 30px;
+            font-size: 22px;
+            border: none;
+            border-radius: 12px;
+            background: #007aff;
+            color: white;
+            cursor: pointer;
+            display: none;
+        }
+        canvas {
+            background: #222;
+            border: 3px solid #444;
+            box-shadow: 0 0 20px black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>⚔️ Coin Clash Multiplayer ⚔️</h1>
+
+    <div id="hud">
+        <div id="timer">⏱ 60s</div>
+        <div id="scores">Score — Waiting...</div>
+    </div>
+
+    <button id="startBtn">START GAME</button>
+
+    <canvas id="game" width="600" height="600"></canvas>
+
+    <script src="client.js"></script>
+    <script src="renderer.js"></script>
+
+</body>
+</html>
