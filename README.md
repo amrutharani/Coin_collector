@@ -1,4 +1,5 @@
 Coin Clash Multiplayer
+<img width="1856" height="1055" alt="image" src="https://github.com/user-attachments/assets/6db7a4c3-2a75-4b0f-abb7-c7b77e34d2a5" />
 
 This is a real-time multiplayer browser game where two players compete to collect as many yellow coins as possible before the timer ends.
 This project was created as part of an Associate Game Developer Test for demonstrating multiplayer state synchronization without using any third-party networking engines.
